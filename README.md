@@ -3,12 +3,14 @@ A NerdSoloMiner using > Han miner
 
 Original project https://github.com/valerio-vaccaro/HAN
 
+![image](https://github.com/cryptopasivo/ESP32_NerdMiner/blob/master/img/Nerdminer1.jpg)
+![image](https://github.com/cryptopasivo/ESP32_NerdMiner/blob/master/img/Nerdminer2.jpg)
+
 ## Requirements
 - ESP32-WROOM
 - TFT 1,8" ST7735S
 - Arduino IDE
 - TFT_eSPI Library
-![image](https://github.com/Xinyuan-LilyGO/TTGO-T-Display/blob/master/image/image4.jpg)
 
 ## Description
 ESP32 implementing Stratum protocol to mine on solo pool. Pool can be changed but originally works with ckpool.
@@ -18,11 +20,11 @@ This miner is multicore and multithreads, each thread mine a different block tem
 ## HW Schematic
 Connect your ESP32 following this image.
 
-![image](https://github.com/Xinyuan-LilyGO/TTGO-T-Display/blob/master/image/image4.jpg)
+![image](https://github.com/cryptopasivo/ESP32_NerdMiner/blob/master/Hardware.jpg)
 
 You will find all STL files to build the box.
 
-![image](https://github.com/Xinyuan-LilyGO/TTGO-T-Display/blob/master/image/image4.jpg)
+![image]https://github.com/cryptopasivo/ESP32_NerdMiner/blob/master/ASIC_BOX/ASIC_BOX.png)
 
 You can add a 5V fan just for fun and to make your miner pretty.
 
